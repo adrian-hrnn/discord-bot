@@ -1,7 +1,7 @@
 # **Main**
 ![title graphic](https://i.ibb.co/f0H4qLP/title.png)
 
-  **Custom Discord bot made using Java Discord API (JDA)** :keyboard:
+  **Custom Discord bot made using Java Discord API ([JDA](https://github.com/DV8FromTheWorld/JDA))** :keyboard:
 ### :grey_exclamation: ***Important***
 > Last update: Jul 20<sup>th</sup> 2022
 
