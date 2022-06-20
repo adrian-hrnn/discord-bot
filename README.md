@@ -1,4 +1,6 @@
 # Discord-bot
+![title graphic](https://i.ibb.co/f0H4qLP/title.png)
 
-**Discord bot made in Java Script**
+**Custom Discord bot made in Java Script** :keyboard:
+> Last update: Jul 20<sup>th</sup> 2022
 
