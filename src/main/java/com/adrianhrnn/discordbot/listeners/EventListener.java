@@ -14,8 +14,6 @@ public class EventListener extends ListenerAdapter {
     @Override
     public void onMessageReceived(@NotNull MessageReceivedEvent event) {
         String message = event.getMessage().getContentRaw();
-        event.getMessage().getInteraction().getMember();
-        Member member = event.getMember(); //Who send the message
 
         if (message.contains("Murk")) {
             event.getChannel().sendMessage("Ist das überhaupt richtig?").queue();
@@ -25,6 +23,21 @@ public class EventListener extends ListenerAdapter {
         }
         if (message.contains("3")) {
             event.getChannel().sendMessage("Ich bin stolz auf dich").queue();
+        }
+        if (message.contains("10")) {
+            event.getChannel().sendMessage("Jetzt wird's Schwieriger").queue();
+        }
+        if (message.contains("69")) {
+            event.getChannel().sendMessage("Schweinekram").queue();
+        }
+        if (message.equals("100")) {
+            event.getChannel().sendMessage("per cento").queue();
+        }
+        if (message.contains("256")) {
+            event.getChannel().sendMessage("Da schlägt mein Herz höher").queue();
+        }
+        if (message.equals("1000")) {
+            event.getChannel().sendMessage("Noch ne 0").queue();
         }
     }
 
