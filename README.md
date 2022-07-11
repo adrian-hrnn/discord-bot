@@ -8,6 +8,25 @@
   Refer to __#.env.example__ for bot token. :page_facing_up:
 
 
+=====================
+
+### ***Updates***
+ V. 1.1
+
+//Slash commands ✅
+
+  Interface based calculator 🔢
+  
+   Addition / Subtraction, 
+   Multiplication / Division
+    
+    e & pi input via conversion
+   
+➡️See CommandManager.java for code
+
+=====================
+
+
 ### :bulb: ***Planned features***
 
   -Slash (/) commands :ballot_box_with_check:
