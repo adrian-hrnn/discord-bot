@@ -12,16 +12,21 @@
 
 ### ***Updates***
  V. 1.1  / Jul 11<sup>th</sup> 2022
+ 
+ 
 //Slash commands ✅
 
   Interface based calculator 🔢
   
    Addition / Subtraction, 
+   
    Multiplication / Division
+    
     
     e & pi input via conversion
    
 ➡️See CommandManager.java for code
+
 
 =====================
 
