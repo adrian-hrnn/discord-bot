@@ -3,7 +3,7 @@
 
   **Custom Discord bot made using Java Discord API ([JDA](https://github.com/DV8FromTheWorld/JDA))** :keyboard:
 ### :grey_exclamation: ***Important***
-> Last update: Jul 20<sup>th</sup> 2022
+> Last update: Jun 20<sup>th</sup> 2022
 
   Refer to __#.env.example__ for bot token. :page_facing_up:
 
@@ -11,8 +11,7 @@
 =====================
 
 ### ***Updates***
- V. 1.1
-
+ V. 1.1  / Jul 11<sup>th</sup> 2022
 //Slash commands ✅
 
   Interface based calculator 🔢
