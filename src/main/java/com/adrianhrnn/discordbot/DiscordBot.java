@@ -1,5 +1,6 @@
 package com.adrianhrnn.discordbot;
 
+import com.adrianhrnn.discordbot.commands.CommandManager;
 import com.adrianhrnn.discordbot.listeners.EventListener;
 import io.github.cdimascio.dotenv.Dotenv;
 import net.dv8tion.jda.api.OnlineStatus;
@@ -25,7 +26,7 @@ public class DiscordBot {
 
         DefaultShardManagerBuilder builder = DefaultShardManagerBuilder.createDefault(token);
         builder.setStatus(OnlineStatus.ONLINE);
-        builder.setActivity(Activity.playing("Fritz 14"));
+        builder.setActivity(Activity.watching("Kasel'o'mat"));
         builder.enableIntents(GatewayIntent.GUILD_PRESENCES, GatewayIntent.GUILD_MEMBERS, GatewayIntent.GUILD_MESSAGES);
         //caching
         builder.setMemberCachePolicy(MemberCachePolicy.ALL);
@@ -34,7 +35,7 @@ public class DiscordBot {
         shardManager = builder.build();
 
         //Listeners Register
-        shardManager.addEventListener(new EventListener());
+        shardManager.addEventListener(new EventListener(), new CommandManager());
     }
 
 //return
